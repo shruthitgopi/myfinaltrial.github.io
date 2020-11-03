@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">    <!-- Engligh language, en stands for engligh--> 
+<head>
+
+  <title>webpage 1</title>  <!-- you need a title for your webpage ! -->
+  <meta charset="utf-8">    <!-- Character set of English -->
+
+  <!-- if you are using a bootstrap - we need some external links to be linked to yur webpage -->
+  <!-- because, bootstrap includes CSS, JAvascripts, html --->
+  <!-- we need to compulsorily copypaste few LINKS of bootstrap -->
+  <!-- they are called CDN links -->
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<!--- NOW , WE WILL START CODING OUR WEBSITE -->
+
+<!-- NAV BAR codes -->
+<body style="height:1500px">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" href="Webpage 1.html">Luuman's fashion</a>
+  <ul class="navbar-nav ml-auto">  <!-- i need my menus on top right -->
+  	<!-- ml-auto stands for MARGIN LEFT -->
+
+    <li class="nav-item">
+      <a class="nav-link" href="Webpage 1.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about us.html">About us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="GAL.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="CONT.html">Contact</a>
+    </li>
+  </ul>
+  <!-- after the navbar code, I have inserted a code for SEARCH -->
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+</nav>
+</nav>
+
+<div class="container-fluid" style="margin-top:80px">
+ </div>
+
+
+ <!-- NAV BAR ends here -->
+
+ <!-- new section starts - ABOUT US PAGE -->
+<section>
+  <div class="container">
+    <h1 class="text-center pt-5">About us</h1> <!-- pt means padding, value shud be between 1 to 5 -->
+    <hr class="w-100 pt-5"> <!-- hr is the line under about us-->
+
+    <div class="row">
+      <div class="col">
+        <img src="C:/Users/Admin/Desktop/web2/imagess/g1.jpg" width="350" height="500">
+      </div>
+      <div class="col">
+        <h2>Our story</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Footer -->
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+
+
+
+<!-- My TEAM html codes -->
+<div class="container">
+<h2 class="text-center pt-5">Meet my Team</h2>
+<br>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="C:/Users/Admin/Desktop/web2/imagess/g5.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:/Users/Admin/Desktop/web2/imagess/r6.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="C:/Users/Admin/Desktop/web2/imagess/g5.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</body>
